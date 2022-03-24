@@ -1,0 +1,18 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 3px dashed blue;
+    margin-left: 25px;
+}
+.box2{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    border: 1px solid;
+    margin-left: 25px;
+
+}
+body{
+    display: flex;
+}
