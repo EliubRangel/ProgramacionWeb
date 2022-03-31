@@ -1,0 +1,21 @@
+.small
+{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-right: 20px;
+}
+
+.box-sm
+{
+    display: flex;
+    align-items: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
