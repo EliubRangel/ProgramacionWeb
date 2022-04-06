@@ -1,0 +1,26 @@
+.container
+{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+}
+.item-cel
+{
+    width: 200px;
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.square
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.envio-gratis
+{
+    color: #00a650;
+}
