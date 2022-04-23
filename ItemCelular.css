@@ -7,12 +7,14 @@
 .my-form
 {
  width: 100%;   
- height: 250px;
+ border: 1px solid rgb(230, 227, 227);
+ box-shadow: 5px 5px 15px -5px #000000;
 }
 .my-form form
 {
     flex-direction:column;
     display: flex;
+    
 }
 .form-group
 {
@@ -42,4 +44,24 @@
 body
 {
     font-family: 'Roboto';
+    padding: 20px;
+}
+.btn
+{
+    background-color: #035afc;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: azure;
+}
+.btn:hover
+{
+    background-color:rgb(48, 112, 250);
+    cursor: pointer;
+    box-shadow: 15px 16px 8px -11px #000000;
+
+}
+
+input:focus{
+    color: red;
 }
